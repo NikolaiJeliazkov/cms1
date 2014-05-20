@@ -1,1 +1,4 @@
-.metadata
+# Ignore everything in this directory
+.metadata/*
+# Except this file
+!.gitignore
