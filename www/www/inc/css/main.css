@@ -1,0 +1,573 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background:white url(/themes/razum/inc/images/bg.png);
+}
+
+a {
+	color: #000;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration:underline;
+}
+
+a:focus, a:visited {
+	color: #000;
+}
+
+#page
+{
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 995px !important;
+}
+
+#header
+{
+	margin: 0px;
+	padding: 0px;
+	height: 120px !important;
+	width: 995px !important;
+	position: relative;
+}
+
+#header #logo
+{
+	background:#E3C288;
+	width: 177px !important;
+	height: 120px !important;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+}
+
+#header #siteTitle
+{
+	margin-left: 177px;
+	height: 115px !important;
+	background: url(/themes/razum/inc/images/head.png) no-repeat;
+	padding-top: 5px;
+	padding-left: 100px;
+	font-family: cyrillic_old, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#mainMenu
+{
+	clear: left;
+	margin: -0px 0 0 0;
+	background: url(/themes/razum/inc/images/bgmenu.png) no-repeat left top;
+	width: 995px !important;
+	height: 47px !important;
+/*	font-family: 'DroidSans', cursive;*/
+	font-size: 16px;
+}
+
+#mainMenu > .nav {
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: right;
+	padding-right: 7px;
+	font-family: cyrillic_old, sans-serif;
+	font-size: 1.3em;
+}
+#mainMenu > .nav-tabs > li > a,
+#mainMenu > .nav-pills > li > a {
+}
+#mainMenu > .nav > li > a:hover,
+#mainMenu > .nav > li > a:focus {
+}
+#mainMenu > .nav-pills > .active > a,
+#mainMenu > .nav-pills > .active > a:hover,
+#mainMenu > .nav-pills > .active > a:focus {
+}
+#mainMenu > .nav-pills > li > a {
+}
+
+.nav-tabs > li > a,
+.nav-pills > li > a {
+	padding-right: 7px;
+	padding-left: 7px;
+	margin-left: 2px;
+	margin-right: 2px;
+	line-height: 14px;
+	border-bottom: 2px solid transparent;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+	text-decoration: none;
+	border-bottom: 2px solid #590711;
+	background-color: transparent;
+}
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+	font-weight: bold;
+	color: #000;
+	background-color: transparent;
+}
+.nav-pills > li > a {
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+}
+
+#content > #submenu .nav-pills > li > a {
+	padding-bottom: 0px;
+}
+
+
+
+.rrr
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+
+#leftBar
+{
+	position: absolute;
+	left: 0px;
+	text-align: center;
+	margin:-5px auto;
+	width: 177px !important;
+	min-height: 400px !important;
+	overflow: hidden;
+	background: #E3C288 url(/themes/razum/inc/images/leftcolumn.png) repeat-x left top;
+	-webkit-box-shadow: 3px 3px 3px 1px #555;
+	   -moz-box-shadow: 3px 3px 3px 1px #555;
+	        box-shadow: 3px 3px 3px 1px #555;
+
+}
+
+#leftBar #accent,
+#leftBar #calendar
+
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#leftBar .title,
+#content > #submenu > .title
+{
+	margin-top: 20px;
+	color: #590711;
+	font-size: 20px;
+	margin-bottom: 12px;
+	font-family: cyrillic_old, sans-serif;
+}
+#content > #submenu > .title
+{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-left: 10px;
+	text-align: left;
+
+}
+#leftBar #calendar .date
+{
+	color: #590711;
+	font-weight: bold;
+}
+#leftBar #calendar div
+{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+#leftBar > #accent > a > img
+{
+	outline:silver outset thick;
+}
+
+#mainContainer
+{
+	margin-left: 187px;
+	text-align: left;
+	width: 790px !important;
+}
+
+#mainContainer > .breadcrumb {
+	background-color:transparent;
+	border-radius: 4px 4px 4px 4px;
+	list-style: none outside none;
+	margin: 0px;
+	padding: 8px 0px;
+}
+
+#mainContainer #submenu {
+	background-color:#E3C288;
+	border-radius: 4px 4px 4px 4px;
+	width: 200px;
+	min-height: 200px;
+	border: 1px solid #E3C288;
+	float: right;
+	margin-left: 10px;
+}
+
+#content
+{
+	clear: left;
+	float: left;
+	padding-top: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+#content > #indexNews
+{
+	clear: both;
+	width: 100%;
+	min-height: 100px;
+	margin-left: -10px;
+	padding-left: 10px;
+	background: #EBD29D;
+	margin-top: 30px;
+}
+
+#content > #indexNews > .title
+{
+	color: #590711;
+	font-family: cyrillic_old, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#content > #indexNews > .post
+{
+	float: left;
+	width: 49%;
+}
+
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+
+.post .title a
+{
+	color: #555555;;
+	font-weight: bold;
+}
+#content > #indexNews > .post .date
+{
+	font-size: 10px;
+}
+
+.post > .entry > img,
+.article img
+{
+	float: left;
+	margin: 0 1em 1em 0;
+}
+.post:nth-child(odd) > .entry > img,
+.article img:nth-child(odd)
+{
+	float: right;
+	margin: 0 0 1em 1em;;
+}
+.post > .meta {
+	font-style:italic;
+	font-size: 0.8em;
+}
+.post > .meta > .date {
+	float: left;
+}
+.post > .meta > .author {
+	float: right;
+}
+
+
+.list-view {
+	padding-top: 0px;
+}
+
+
+#content-container {
+	width: 100%;
+	padding: 0px;
+}
+
+#content-container #content
+{
+	clear: left;
+	float: left;
+	width: 70%;
+	padding-top: 10px;
+	margin: 0 0 0 4%;
+	display: inline;
+}
+
+#content-container #sidebar
+{
+	float: right;
+	width: 16%;
+	min-width: 200px;
+	margin: 0 3% 0 0;
+	display: inline;
+	padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	clear: both;
+}
+
+
+.nav .dropdown-toggle .caret {
+	border-bottom-color: #590711;
+	border-top-color: #590711;
+	margin-top: 6px;
+}
+.nav-tabs .open .dropdown-toggle, .nav-pills .open .dropdown-toggle, .nav > li.dropdown.open.active > a:hover, .nav > li.dropdown.open.active > a:focus {
+	background-color: #E3C288;
+	border-color: #E3C288;
+	color: #FFFFFF;
+}
+.dropdown-menu {
+	background-color: #FFFBD5;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  background-color: #E3C288;
+  background-image: none;
+  filter: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: inherit;
+	font-family: inherit;
+	font-weight: bold;
+	line-height: 1em;
+	text-rendering: optimizelegibility;
+}
+
+pre {
+	background-color: transparent;
+	border: 0px solid rgba(0, 0, 0, 0.15);
+}
+
+.scrollToTop
+{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	color: #555555;
+	font-weight: bold;
+	width: 100%;
+	text-align: left;
+	cursor:pointer;
+}
+
+.thumb_item {
+	float: left;
+	margin-right: 10px;
+	width: 210px;
+	margin-bottom: 20px;
+}
+
+.thumb_item .title {
+	color: #555555;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * CSS styles for CLinkPager.
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ * @link http://www.yiiframework.com/
+ * @copyright Copyright &copy; 2008-2010 Yii Software LLC
+ * @license http://www.yiiframework.com/license/
+ * @version $Id: pager.css 1678 2010-01-07 21:02:00Z qiang.xue $
+ * @since 1.0
+ */
+
+ul.yiiPager
+{
+	font-size:11px;
+	border:0;
+	margin:0;
+	padding:0;
+	line-height:100%;
+	display:inline;
+}
+
+ul.yiiPager li
+{
+	display:inline;
+	border-radius: 1px 1px 1px 1px;
+	background: transparent;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+	border:1px solid transparent;
+	font-weight:bold;
+	color:#590711;
+	padding:1px 6px;
+	text-decoration:none;
+	background: transparent;
+}
+
+ul.yiiPager .page a
+{
+	font-weight:normal;
+}
+
+ul.yiiPager a:hover
+{
+	border:1px solid #590711;
+	color:#590711;
+	background: transparent;
+}
+
+ul.yiiPager .selected a
+{
+	background:transparent;
+	color:#590711;
+	font-weight:bold;
+}
+
+ul.yiiPager .hidden a
+{
+	border:1px solid transparent;
+	color:#888888;
+}
+
+/**
+ * Hide first and last buttons by default.
+ */
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+	display:none;
+}
+
+.pager li > a, .pager li > span {
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
